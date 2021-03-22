@@ -1,0 +1,175 @@
+
+* {
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background-color: rgb(202, 199, 199);
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*  */
+
+#cabeçalho a{
+    text-decoration: none;
+    padding: 8px 12px;
+}
+ a:visited,  a:link {
+    color: #f7b600;
+   
+}
+a:hover {
+   text-decoration: underline;
+   border-radius: 8px;
+   
+}
+#cabeçalho a:visited, #cabeçalho a:link {
+     color: white;
+    
+}
+#cabeçalho a:hover {
+    color:#f7b600 ;
+    background: #fff;
+}
+#logo{
+    background-color: #f7b600;
+    padding: 15px;
+    
+}
+ #cabeçalho {
+    padding: 10px;
+    background-color: #f7b600;
+    text-align: center;
+}
+.branco {
+    color: white;
+}
+#menu{
+    display: inline-block;
+    padding: 15px;
+    
+}
+h1{
+        
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+
+ul a{
+    width: 400px;
+    display: inline-block;
+    margin-left: 40px;
+    
+    border: 1px solid red;
+}
+#login{
+    float: right;
+    padding-top: 5px;   
+            
+    
+}
+#login img{
+    
+    padding-top: 10px;
+}
+/* Fim da Area de cabeçalho */
+/* Inicio da area de postagens */
+
+#principal {
+    
+   
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.data-postagem{
+    font-size: 0.8em;
+    
+   }
+   h2{
+    color: #f7b600;
+}
+h3{
+    background-color:  #c0bfbd;
+    color:#4e4e4e 
+}
+#area-postagens {
+    width: 700px;
+    float: left;
+    
+
+}
+.postagem {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+#area-lateral {
+    width: 240px;
+  
+	float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+/* Fim da area de postagens */
+/* Inicio da area de Login */
+ 
+ legend{
+           font-weight: bold;
+           color:  #f7b600;
+ }
+
+input.radio, input.checkbox, input.submit {
+           width: auto;
+}
+
+    label{
+         display: block;
+    }
+
+
+       input {
+        height:25px ;
+            width: 15%;
+    }
+    input.ReceberNotificacoes {
+        height:13px ;
+         width: 7%;
+         padding-right: 5px;
+    }
+    input.btnLogar {
+        height:20px ;
+         width: 5%;
+         border: 1px solid #4e4e4e;
+        border-radius:8px;
+    }
+    input.nome{
+        border: 1px solid #4e4e4e;
+        border-radius:8px;
+    }
+    input.NomeDeUsuario{
+        border: 1px solid #4e4e4e;
+        border-radius:8px;
+    }
+    input.senha{
+        border: 1px solid #4e4e4e;
+        border-radius:8px;
+    }
+    input.email{
+        border: 1px solid #4e4e4e;
+        border-radius:8px;
+    }
+    
