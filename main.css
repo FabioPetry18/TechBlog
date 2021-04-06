@@ -9,11 +9,16 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*  */
+#logo a{
+    text-decoration: none;
 
+
+}
 #cabeçalho a{
     text-decoration: none;
     padding: 8px 12px;
 }
+
  a:visited,  a:link {
     color: #f7b600;
    
@@ -31,14 +36,18 @@ a:hover {
     color:#f7b600 ;
     background: #fff;
 }
+#logo a:hover{
+    text-decoration: none;
+}
 #logo{
-    background-color: #f7b600;
+
+  
     padding: 15px;
     
 }
  #cabeçalho {
     padding: 10px;
-    background-color: #f7b600;
+    background: linear-gradient(#f7b600, red);
     text-align: center;
 }
 .branco {
